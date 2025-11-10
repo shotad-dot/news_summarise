@@ -1,0 +1,146 @@
+body{
+    display: flex;
+    background-color: #ecd695;
+}
+
+#nav{
+    display: flex;
+    width: 98%;
+    height: 50px;
+    align-items: space-between;
+    justify-content: space-between;
+    background-color: #B77466;
+    border-radius: 8px;
+    position: fixed;
+}
+#start{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+#end{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+#goto
+{
+    border-radius: 8px;
+    height: 30px;
+    width: 150px;
+    background-color: #FFE1AF;
+    border: 2px solid #94331f6e;
+    font-weight: bold;
+    font-family: monospace;
+    cursor: pointer;
+    color: #916315;
+    
+}
+
+#tittext{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFE1AF;
+    font-family: monospace;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:20% ;
+}
+
+#title
+{
+    color: #7e4a01;
+    font-size: 30px;
+    font-family:monospace;
+    
+}
+
+#imag
+{
+    max-width:300px;
+    max-height: auto;
+    border-radius: 8px;
+    border: 2px solid rgba(232, 137, 110, 0.695);
+}
+
+#descr
+{
+    padding: 10px;
+    color:#7e4a01;
+    font-size:20px;
+    font-style: italic;
+}
+
+#readmore
+{
+    color: #B77466;
+}
+
+#newbtn
+{
+    border-radius: 5px;
+    border: none;
+    width: auto;
+    min-height: 150%;
+    background-color: #dc9a8c;
+    color: #ffffff;
+    font-family: monospace;
+}
+
+#likeb
+{
+    display: flex;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    width: 50px;
+    height:50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #B77466;
+    transition-timing-function: ;
+}
+
+
+#light{
+    background-color: none;
+    width: 70px;
+    height: auto;
+
+    margin-top: 20px;
+    border: none;
+    background-color: #ecd695;  /* i am setting background color as rhat of body colour so that the button shd not be visible. only the image within button shd be seen */
+}
+
+.im
+{
+    width: 20px;
+    height: auto;
+    
+}
+
+#getnews
+{
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    height: auto;
+    background-color: #dc9a8c;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    margin-left:7%;
+}
